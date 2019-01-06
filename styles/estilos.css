@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height:100%;
+    background-color: #e0dbdb;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma;
+}
+
+.marco{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.semaforo{
+    width: 150px;
+    height: 350px;
+    border: 5px solid black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #afa6a6;
+}
+
+.luz{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* LUCES ENCENDIDAS */
+.verde{
+    background-color: #2ea150;
+    border: 1px solid #218a44;
+    box-shadow: 0px 0px 100px 10px #1bdb14,
+                0px 0px 100px 50px #1bdb14,
+                inset 0 0 50px 0 #1bdb14;
+    z-index: 100;
+}
+.amarillo{
+    background-color: #FFD700;
+    border: 1px solid #b8a120;
+    box-shadow:0px 0px 100px 10px #fae740,
+                0px 0px 100px 50px #fae740,
+                inset 0 0 50px 0 #fae740;;
+    z-index: 100;
+}
+.rojo{
+    background-color: #DC143C;
+    border: 1px solid #aa0123;
+    box-shadow: 0px 0px 100px 10px #fd2828,
+                0px 0px 100px 50px #fd2828,
+                inset 0 0 50px 0 #fd2828;;
+    z-index: 100;
+}
+
+/* LUCES APAGADAS */
+.verde-ap{
+    background-color: #2b5337;
+    border: 1px solid #000000;
+    box-shadow: none;
+}
+.amarillo-ap{
+    background-color: #5f582f;
+    border: 1px solid #000000;
+    box-shadow: none;
+}
+.rojo-ap{
+    background-color: #471b24;
+    border: 1px solid #000000;
+    box-shadow: none;
+}
+

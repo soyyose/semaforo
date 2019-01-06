@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Semaforo</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+    <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+<header>
+    <h2>Semaforo</h2>
+</header>
+<main>
+    <div class="marco">
+    <div id="semaforo" class="semaforo">
+        <div class="luz rojo" id="rojo"></div>
+        <div class="luz amarillo" id="amarillo"></div>
+        <div class="luz verde" id="verde"></div>
+    </div>
+    </div>
+
+<button type="button" onclick="apagaVerde()">Apagar Verde</button>
+<button type="button" onclick="prendeVerde()">Prende Verde</button>
+<button type="button" onclick="suicheVerde()">Suiche Verde</button>
+<button type="button" onclick="soloVerde()">solo Verde</button>
+<br>
+
+
+
+<button type="button" onclick="apagaAmarillo()">apagar Amarillo</button>
+<button type="button" onclick="prendeAmarillo()">prende Amarillo</button>
+<button type="button" onclick="suicheAmarillo()">Suiche Amarillo</button>
+<button type="button" onclick="soloAmarillo()">solo Amarillo</button>
+<br>
+
+<button type="button" onclick="apagaRojo()">apagar rojo</button>
+<button type="button" onclick="prendeRojo()">prende rojo</button>
+<button type="button" onclick="suicheRojo()">Suiche rojo</button>
+<button type="button" onclick="soloRojo()">solo rojo</button><br><br>
+
+<button type="button" onclick="iniciarSemaforo()">inicio del semaforo</button>
+<button type="button" onclick="detenerSemaforo()">detener semaforo</button>
+<br>
+
+<p id="demo">hola</p>
+
+</main>
+
+
+<script src="scripts/app.js"></script>
+</body>
+</html>
