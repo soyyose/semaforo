@@ -17,7 +17,16 @@ h2{
     display:flex;
     justify-content: center;
     align-items: center;
-} 
+    margin: 0 0 2em 0;
+}
+
+header{
+    background-color: #2d68a3;
+    font-size: 24px;
+    color: #e0dbdb;
+    padding: 0.5em;
+    margin: 0 0 2em 0;
+}
 
 .semaforo{
     width: 150px;
@@ -94,7 +103,8 @@ h2{
 }
 
 .boton:hover{
-    background-color: lightcoral;
+    background-color: #2d68a3;
+    color: #e0dbdb;
     box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.25),
                 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
